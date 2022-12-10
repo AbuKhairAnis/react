@@ -1,0 +1,55 @@
+.header {
+    height: 10vh;
+    line-height: 10vh;
+    margin-top: 15px;
+    
+}
+
+a {
+    letter-spacing: 1px;
+    margin-left: 30px;
+    font-weight: 700px;
+    font-size: 18px;
+    padding: 5px;
+    transition: 0.5s;
+}
+a:hover{
+background-color: bisque;
+padding: 10px;
+border-radius: 6px;
+}
+.logo-img{
+    height: fit-content;
+    width: 120px;
+    
+}
+.open{
+    display: none;
+}
+@media (max-width: 768px) {
+    .nav-links-mobile{
+        position: absolute;
+        height: 100%;
+        width: 35%;
+        display: block;
+        margin: auto;
+        top:120px;
+        background: white; 
+        /* display: none; */
+        
+       
+    }
+    
+   a{
+    display: block;
+   }
+   .open,
+   .close{
+    position: absolute;
+    display: block;
+    top: 10px;
+    left: 120px;
+    
+     }
+    
+}

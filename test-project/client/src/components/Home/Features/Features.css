@@ -1,0 +1,89 @@
+.heading{
+    text-align: center;
+}
+.heading h2{
+    margin-top: 20px;
+    padding: 10px;
+
+}
+.grid{
+    height: 600px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    
+   
+}
+.card-item{
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+.card-box{
+    box-sizing: border-box;
+    height: 220px;
+    border: none;
+    margin-left: 10px;
+    background-color: cornsilk;
+    margin-top: 20px;
+    padding: 12px;
+        
+}
+.card-img{
+    width: 30%;
+    height: 30%;
+}
+.row{
+    margin-left: 5px;
+}
+.card-box p{
+    margin-top: 12px;
+}
+.content{
+    margin: auto;
+    padding: 40px;
+}
+@media (max-width: 768px) {
+
+    .grid{
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+      
+}
+.card-box{
+    box-sizing: border-box;
+    height: auto;
+    border: none;
+    margin-left: 10px;
+    background-color: cornsilk;
+    margin-top: 20px;
+    padding: 12px;
+        
+}
+}
+
+@media (max-width: 1024px) {
+    .grid{
+        height: auto;
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+          
+    }
+    .card-box{
+        box-sizing: border-box;
+        height: auto;
+        border: none;
+        margin-left: 10px;
+        background-color: cornsilk;
+        margin-top: 20px;
+        padding: 12px;
+            
+    }
+}

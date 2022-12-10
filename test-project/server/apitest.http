@@ -1,0 +1,19 @@
+GET http://localhost:4444/health
+
+###
+
+GET http://localhost:4444/api/v1/message/find
+
+
+###
+POST http://localhost:4444/api/v1/message
+Content-Type: application/json
+
+{
+   "name": "arafat",
+   "email": "anis@anis.com",
+   "phoneNumber": "01937925006",
+   "address": "Trishal",
+   "short_message":"Hello"
+
+}

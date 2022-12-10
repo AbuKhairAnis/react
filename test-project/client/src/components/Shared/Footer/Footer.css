@@ -1,0 +1,15 @@
+.footer_container{
+    display: flex;
+    background-color: lightslategray;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+      
+
+}
+.footer-text h3 p{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}

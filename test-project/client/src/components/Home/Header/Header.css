@@ -1,0 +1,47 @@
+.grid-item {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.text-content {
+    margin: auto;
+    margin-left: 30px;
+
+}
+
+.img {
+    height: 98%;
+    width: 80%;
+    margin-left: 150px;
+}
+
+.text-content p {
+    text-align: justify;
+    padding: 5px;
+
+}
+.text-content h2{
+    font-size: 4rem;
+}
+
+.text-content h2,
+h3,
+h4 {
+    margin-bottom: 10px;
+
+
+}
+
+@media (max-width: 768px) {
+
+    .img {
+        margin-left: 50px;
+    }
+
+    h3 {
+        margin-top: 50px;
+    }
+
+}
